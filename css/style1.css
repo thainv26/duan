@@ -1,0 +1,92 @@
+/* code Trang nguoi dung   */
+
+/* trang header  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 194px;
+    background-color: #7283AE;
+}
+.trangchu_logo{
+    margin-left: 50px;
+    padding-top: 32px;
+    width: 130px;
+    height: 160px;
+    position: absolute;
+}
+.trangchu_logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.trangchu_search{
+    position: absolute;
+    margin-left: 214px;
+    padding-top: 65px;
+}
+.trangchu_search1{
+    position:absolute ;
+    width: 1000px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid #7283AE;
+    font-size: 25px;
+}
+.trangchu_search2{
+    position: relative;
+    width: 150px;
+    height: 70px;
+    border-radius:0px 20px 20px 0px;
+    margin-left: 850px;
+    border: 1px solid #ACACAC;
+    font-size: 32px;
+}
+.trangchu_taikhoan{
+    padding-top: 10px;
+    text-align: right;
+    font-size: 32px;
+}
+.trangchu_taikhoan a{
+    text-decoration: none;
+    color: black;
+}
+.trangchi_giohang{
+    margin-left: 1230px;
+    font-size: 32px;
+    margin-top: 32px;
+}
+.trangchi_giohang a{
+    text-decoration: none;
+    color: black;
+}
+/* kết thúc trang header  */
+
+ /* trang footer  */
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+}
+.trangchu_footer{
+    background-color: #7283AE;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 80px;
+    padding-left: 50px;
+}
+.trangchu_footer_1{
+    display: grid;
+}
+.trangchu_footer_1 h2{
+    font-size: 32px;
+}
+.trangchu_footer_1 a{
+    font-size: 24px;
+    color: #000;
+}
+/* kết thúc trang footer  */
