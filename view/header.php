@@ -12,7 +12,9 @@
 <body>
     <header>
         <div class="trangchu_logo">
-            <img src="./img/logo.jpg" alt="">
+            <a href="index.php?act=trangchu">
+                <img src="./img/logo.jpg" alt="">
+            </a>
         </div>
         <form action="" class="trangchu_search">
         <input class="trangchu_search1" type="search" name="" id="" placeholder="Tìm sản phẩm">
@@ -20,10 +22,10 @@
         </form>
         <div class="trangchu_taikhoan">
             <a href=""><i class="fa-solid fa-user"></i></a>
-            <a href="">Tài khoản</a>
+            <a href="admin/index.php?act=danhmuc">Tài khoản</a>
         </div>
         <div class="trangchi_giohang">
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="index.php?act=chitietsp"><i class="fa-solid fa-cart-shopping"></i></a>
             <a href="">Giỏ hàng</a>
         </div>
     </header>
