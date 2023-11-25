@@ -245,34 +245,52 @@ footer{
     gap: 70px;
     margin-left: 50px;
 }
+/* //////////////////////////////// */
 .trangchu_main_box3_product_1{
     width: 200px;
-    height: 290px;
-    border:1px solid #858585;
-    background-color: #D9D9D9;
+    height: 280px;
+    border: 1px solid #858585;
+    background-color: #8F8F8F;
 }
-.trangchu_main_box3_product_1 img{
-    width: 199px;
-    height: 230px;
-    position: absolute
+.trangchu_main_box3_product_1_img{
+    width: 100%;
 }
-.trangchu_main_box3_product_1 h3{
-    color: red;
-    font-size: 20px;
+.trangchu_main_box3_product_1_img img{
+    width: 198px;
+    height: 210px;
+    position: absolute;
 }
-.trangchu_main_box3_product_1 p{
-    font-size: 16px;
-    margin-left: 40px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    max-width: 130px;
-    margin-top: 230px;
-}
-.trangchu_main_box3_product_1 h5{
-    font-size: 10px;
+.trangchu_main_box3_product_1_img h1{
+    position: relative;
     float: right;
+    font-size: 20px;
+    display: block;
+    padding: 5px;
+    background-color: #FF9467;
 }
+.trangchu_main_box3_product p{
+    margin-top: 210px;
+    font-size: 20px;
+    width: 150px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 40px;
+}
+.trangchu_main_box3_product h3{
+    display: flex;
+    font-size: 24px;
+    margin-top: 5px;
+    color: red;
+}
+.trangchu_main_box3_product h4{
+    font-size: 20px;
+    font-weight: unset;
+    float: right;
+    padding: 0 5px 5px 0;
+}
+/* //////////////////////////////////////////  */
 .trangchu_main_box4{
     width: 94%;
     margin-top: 40px;
@@ -288,40 +306,59 @@ footer{
     background-color: #000;
     margin-left: 50px;
 }
-.trangchu_main_box4_product_1 img{
-    width: 199px;
-    height: 230px;
-    
-}
-.trangchu_main_box4_product_1 h3{
-    color: red;
-    font-size: 20px;
-}
-.trangchu_main_box4_product_1 p{
-    font-size: 16px;
-    margin-left: 40px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    max-width: 130px;
-}
-.trangchu_main_box4_product_1 h5{
-    font-size: 10px;
-    float: right;
-}
+/* /////////////////////////////  */
 .trangchu_main_box4_product{
     padding-top: 70px;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 70px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .trangchu_main_box4_product_1{
     width: 200px;
-    height: 290px;
-    border:1px solid #858585;
-    background-color: #D9D9D9;
+    height: 280px;
+    border: 1px solid #858585;
+    background-color: #8F8F8F;
 }
+.trangchu_main_box4_product_1_img{
+    width: 100%;
+}
+.trangchu_main_box4_product_1_img img{
+    width: 198px;
+    height: 210px;
+    position: absolute;
+}
+.trangchu_main_box4_product_1_img h1{
+    position: relative;
+    float: right;
+    font-size: 20px;
+    display: block;
+    padding: 5px;
+    background-color: #FF9467;
+}
+.trangchu_main_box4_product p{
+    margin-top: 210px;
+    font-size: 20px;
+    width: 150px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 40px;
+}
+.trangchu_main_box4_product h3{
+    display: flex;
+    font-size: 24px;
+    margin-top: 4px;
+    color: red;
+}
+.trangchu_main_box4_product h4{
+    font-size: 20px;
+    font-weight: unset;
+    float: right;
+    padding-right: 5px;
+}
+/* //////////////////////////////////  */
 .trangchu_main_box4_link{
     margin-top: 20px;
     margin-left: 120px;
@@ -466,13 +503,13 @@ footer{
 }
 .ctsp_product_box1{
     width: 35%;
-    height: 800px;
+    height: 600px;
     float: left;
 }
 
 .ctsp_product_box1_img1 img{
     width: 99%;
-    height: 500px;
+    height: 550px;
     border: 1px solid rgb(198, 198, 198) ;
 }
 .ctsp_product_box1_img2{
@@ -678,4 +715,421 @@ footer{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     margin-left: 50px;
+}
+/* end chi tiết sản phẩm  */
+
+/*start giỏ hàng */
+.giohang{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.giohang_box1{
+    margin-top: 40px;
+    width: 100%;
+    height: 140px;
+    background-color: #B3C5DA;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    padding: 45px 0 0 20px;
+}
+.giohang_box1 a{
+    text-decoration: none;
+    color: #000;
+    padding-right: 30px;
+}
+.giohang_box1 a:hover{
+    color: red;
+}
+.giohang_box1 p{
+    border-left: 2px solid #858585;
+    height: 50px;
+    padding-left: 30px;
+}
+.giohang_box2{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #6B6464;
+}
+.giohang_box2_menu{
+    width: 100%;
+    height: 110px;
+    background-color: #D9D9D9;
+    display: grid;
+    grid-template-columns: 500px 200px 200px 270px 300px;
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.giohang_box2_product{
+    background-color: #F1F1F1;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.giohang_box2_allproduct{
+    border-bottom: 1px solid #000;
+    padding: 20px 0 20px 0;
+}
+.giohang_box2_product_form{
+    display: flex;
+    margin-left: 20px;
+}
+.giohang_box2_product_img{
+    display: flex;
+}
+.giohang_box2_product_img img{
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+}
+.giohang_box2_product_img a{
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 90px;
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+}
+.giohang_box2_product_img a:hover{
+    color: red;
+}
+.giohang_box2_product_price{
+    margin: 100px 0 0 120px;
+    font-size: 24px;
+}
+.giohang_box2_product .ctsp_product_form_2{
+    margin: 90px 0 0 70px;
+}
+.giohang_box2_product_price2{
+    color: red;
+    font-size: 32px;
+    margin: 90px 0 0 60px;
+}
+.giohang_box2_product_submit{
+    margin: 90px 0 0 90px;
+}
+.giohang_box2_product_submit input{
+    width: 100px;
+    font-size: 24px;
+    background-color: #ACACAC;
+}
+.giohang_box2_product_submit input:hover{
+    background-color: #6B6464;
+}
+/* end giỏ hàng  */
+
+/* start đặt hàng  */
+.dathang{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.dathang_user{
+    margin-top: 40px;
+    width: 100%;
+}
+.dathang_user_1{
+    font-size: 32px;
+    width: 100%;
+    height: 110px;
+    background-color: #D9D9D9;
+    font-weight: bold;
+    padding: 35px 0 0 20px;
+}
+.dathang_user_2{
+    font-size: 30px;
+    padding: 10px;
+    background-color: #F1F1F1;
+    height: 350px;
+}
+.dathang_user_2 h5{
+    font-size: 30px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.dathang_user_2 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dathang_user a{
+    color: #0500FF;
+}
+.dathang_product{
+    margin-top: 40px;
+    width: 100%;;
+}
+.dathang_product_menu{
+    width: 100%;
+    height: 110px;
+    background-color: #D9D9D9;
+    font-size: 32px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 600px 250px 250px 250px;
+    padding-left: 70px;
+    padding-top: 35px;
+}
+.dathang_product_detail{
+    display: flex;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 40px;
+    background-color: #F1F1F1;
+    padding-bottom: 20px;
+}
+.dathang_product_detail_img{
+    display: flex;
+}
+.dathang_product_detail_img img{
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+}
+.dathang_product_detail_img a{
+    width: 250px;
+    height: 75px;
+    overflow: hidden;
+    margin-top: 70px;
+    color: #000;
+}
+.dathang_product_detail_price{
+    margin:90px 0 0 170px;
+}
+.dathang_product_detail_number{
+    margin: 90px 0 0 170px;
+}
+.dathang_product_detail_price2{
+    margin: 90px 0 0 190px;
+    color: red;
+}
+.dathang_note{
+    margin-top: 40px;
+    width: 100%;
+    height: 110px;
+    background-color: #D9D9D9;
+    font-size: 32px;
+    display: flex;
+}
+.dathang_note_box1{
+    display: flex;
+    margin-left: 20px;
+}
+.dathang_note_box1 h5{
+    font-size: 32px;
+    margin-top: 35px;
+}
+.dathang_note_box1 input{
+    width: 500px;
+    height: 55px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 20px
+}
+.dathang_note_box2{
+    display: flex;
+    margin-left: 340px;
+    margin-top: 35px;
+}
+.dathang_note_box2 h5{
+    font-size: 32px;
+    padding-right: 20px;
+}
+.dathang_thanhtoan{
+    width: 100%;
+    margin-top: 40px;
+}
+.dathang_thanhtoan_box1{
+    width: 100%;
+    height: 110px;
+    background-color: #D9D9D9;
+    font-size: 32px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.dathang_thanhtoan_box1 h5{
+    font-size: 32px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.dathang_thanhtoan_box1 p{
+    margin-right: 20px;
+    border: 1px solid #000;
+    height: 60px;
+    padding: 10px 10px 0 10px;
+    background-color: white;
+}
+.dathang_thanhtoan_box1 p:hover{
+    background-color: #6B6464;
+    color: white;
+}
+.dathang_thanhtoan_box2{
+    width: 100%;
+    background-color: #F1F1F1;
+    padding-left: 900px;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.dathang_thanhtoan_box2_1{
+    display: flex;
+    padding-top: 20px;
+}
+.dathang_thanhtoan_box2_1 h5{
+    font-size: 32px;
+}
+.dathang_thanhtoan_box2_2{
+    padding-top: 20px;
+    display: flex;
+}
+.dathang_thanhtoan_box2_2 h5{
+    font-size: 32px;
+}
+.dathang_thanhtoan_box2_3{
+    padding-top: 20px;
+    display: flex;
+}
+.dathang_thanhtoan_box2_3 h5{
+    font-size: 32px;
+}
+.dathang_thanhtoan_box2_1 p,.dathang_thanhtoan_box2_2 p,.dathang_thanhtoan_box2_3 p{
+    color: red;
+    padding-left: 20px;
+}
+.dathang_thanhtoan_box3{
+    background-color: #F1F1F1;
+    padding-bottom: 20px;
+}
+.dathang_thanhtoan_box3_1{
+    padding-top: 20px;
+    display: flex;
+}
+.dathang_thanhtoan_box3_1 p{
+    margin-left: 20px;
+    width: 500px;
+    font-size: 20px;
+}
+.dathang_thanhtoan_box3_1 input{
+    margin-left: 550px;
+    font-size: 26px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    background-color: #B3C5DA;
+    border: none;
+}
+/* end trang đặt hàng  */
+
+/* start tài khoản  */
+.taikhoan{
+    width: 95%;
+    margin: auto;
+    margin: 50px 0 50px 0px;
+}
+.taikhoan_box{
+    display: grid;
+    justify-content: center;
+}
+.taikhoan_box a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #0500FF;
+    width: 630px;
+    height: 110px;
+    border: 1px solid #000;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    background-color: #A5A5A5;
+}
+.taikhoan_box a:hover{
+    background-color: #646464;
+    color: red;
+}
+/* end tài khoản  */
+
+/* start đăng kí  */
+.dangki{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.dangki_box1{
+    width: 100%;
+    height: 130px;
+    background-color: #B3C5DA;
+}
+.dangki_box1 h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+.dangki_box1 p{
+    margin: 20px 0 0 780px;
+    font-size: 20px;
+}
+.dangki_box2{
+    width: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.dangky_box2_1{
+    font-size: 32px;
+}
+.dangky_box2_1 p{
+    margin-left: 10px;
+}
+.dangky_box2_1 input{
+    width: 800px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.dangky_box2_2 input{
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #646464;
+    background-color: #A5A5A5;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.dangky_box2_2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+.dangky_box2_2 input:hover{
+    background-color: #646464;
+} 
+/* end dang ki */
+
+/* start dang nhap  */
+.dangnhap{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.dangnhap_box1{
+    width: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.dangki_box2_form a{
+    color: #0019FF;
+    font-size: 20px;
 }

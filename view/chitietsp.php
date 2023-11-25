@@ -11,11 +11,6 @@
                     <div class="ctsp_product_box1_img1">
                         <img src="./img/sp1.jpg" alt="">
                     </div>
-                    <div class="ctsp_product_box1_img2">
-                        <img src="./img/sp2.jpg" alt="">
-                        <img src="./img/sp2.jpg" alt="">
-                        <img src="./img/sp2.jpg" alt="">
-                    </div>
                 </div>
                 <div class="ctsp_product_box2">
                     <h2>Điện thoại iphone 11 64GB Like New</h2>

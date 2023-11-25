@@ -1,27 +1,19 @@
 <div class="box_right_1">
-    <h2>Quản lý Sản phẩm</h2>
+    <h2>Quản lý Sản phẩm / Tìm kiếm sản phẩm</h2>
 </div>
 <hr>
-<div class="sp_table">
-    <div class="sp_table_a">
-        <a href="index.php?act=themsp">+</a>
-    </div>
-    <form action="index.php?act=timsp" method="post" class="sp_form">
-        <select class="sp_form3" name="danhmuc" id="danhmuc">
-            <option value="0">Tất cả</option>
-            <?php foreach ($hienthi_dm as $k => $v) {
-                extract($v);
-            ?>
-                <option value="<?php echo $id_dm ?>"><?php echo $ten_dm ?></option>
-            <?php } ?>
-        </select>
-        <input class="sp_form2" type="submit" value="Tìm kiếm" name="search" id=""><br>
-        <input class="sp_form1" type="text" name="tensp" id="" placeholder="Tên sản phẩm">
-    </form>
+<div class="timsp">
+    <a class="timsp_a" href="index.php?act=sanpham&trang=1">Quay lại</a>
+    <h2>Thông tin tìm kiếm</h2>
+    <h5>Danh mục : <?php echo $id_dm ?></h5>
+    <h5>Tên sản phẩm : <?php echo $tensp ?></h5>
+    <h5>Kết quả :</h5>
+    <?php if($tb==1){ ?>
+        <h5>Sản phẩm không có trong dữ liệu</h5>
+    <?php } ?>
     <table border="1px">
         <tr>
             <th>Stt</th>
-            <th>Danh mục</th>
             <th>Tên sản phẩm</th>
             <th>Ảnh</th>
             <th>Mô tả</th>
@@ -38,7 +30,6 @@
             $link_img = $img_path . $img; ?>
             <tr>
                 <td><?php echo $stt ?></td>
-                <td><?php echo $ten_dm ?></td>
                 <td><?php echo $ten_sp ?></td>
                 <td><img src="<?php echo $link_img ?>" alt="" width="200px" height="170px"></td>
                 <td><?php echo $mota ?></td>
@@ -54,13 +45,5 @@
             </tr>
         <?php  } ?>
     </table>
-    <?php 
-    if($id_dm != ""){
-        for ($i = 1; $i <= $sotrangs; $i++) { ?>
-            <a href="index.php?act=sanpham&trang=<?php echo $i ?>"><?php echo $i ?></a>
-        <?php }
-    }else{
 
-    }
-     ?>
 </div>

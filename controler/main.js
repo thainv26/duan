@@ -16,7 +16,6 @@ window.addEventListener('load', function() {
 });
 
 setInterval(autoslide,2000);
-
 // // tìm kiếm danh mục trong admin/sản phẩm
 
 // function hienthi(){
